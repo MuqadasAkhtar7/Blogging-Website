@@ -2,7 +2,7 @@
   "extends": "stylelint-config-standard",
   "rules": {
     "declaration-block-no-duplicate-properties": true,
-    "no-descending-specificity": null  // Disables the rule
+    "no-descending-specificity": null,
     "no-duplicate-selectors": true,
     "property-no-unknown": true,
     "value-keyword-case": "lower",
