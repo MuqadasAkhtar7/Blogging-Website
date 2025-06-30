@@ -1,80 +1,28 @@
-/* General styles first */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: #333;
-  color: white;
-  padding: 10px 0;
-  text-align: center;
-}
-
-main a {
-  color: blue;
-  text-decoration: none;
-}
-
-main a:hover {
-  color: darkblue;
-  text-decoration: underline;
-}
-
-/* Navigation styles after general links */
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  background-color: #444;
-  overflow: hidden;
-}
-
-nav ul li {
-  display: inline-block;
-}
-
+/* ✅ Navigation links FIRST */
 nav ul li a {
-  display: block;
-  padding: 10px 20px;
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 nav ul li a:hover {
-  background-color: #555;
+    text-decoration: underline;
 }
 
-/* Contact form */
-.contact-form {
-  background: white;
-  padding: 20px;
-  margin: 20px auto;
-  width: 50%;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+/* ✅ Main links after nav */
+main a {
+    color: #00adb5;
+    text-decoration: none;
 }
 
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+main a:hover {
+    text-decoration: underline;
 }
 
-.contact-form button {
-  padding: 10px 15px;
-  background-color: #333;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.contact-form button:hover {
-  background-color: #555;
+/* ✅ Example background fix */
+footer {
+    background-color: rgb(0 0 0 / 10%);
+    color: white;
+    padding: 15px;
+    text-align: center;
 }
