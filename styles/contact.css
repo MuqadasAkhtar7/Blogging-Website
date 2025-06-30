@@ -1,4 +1,4 @@
-/* Link styles inside main */
+/* ✅ General link styles inside main */
 main a {
     color: #00adb5;
     text-decoration: none;
@@ -8,7 +8,7 @@ main a:hover {
     text-decoration: underline;
 }
 
-/* Navigation styles */
+/* ✅ Navigation link styles */
 nav ul li a {
     color: white;
     text-decoration: none;
